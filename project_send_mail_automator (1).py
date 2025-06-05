@@ -13,11 +13,8 @@ conn = pyodbc.connect(conn_str)
 
 def send_email(subject, receiver_email, body):
     # Your email credentials
-    #sender_email = "sarika.jadhav@larsentoubro.com"
-    #password = "Security@123456789"
-    sender_email = "adityanimase13@outlook.com"
-    password = "Aditya@123456"
-
+    #sender_email = 
+    #password = 
     # Create the email message
     message = MIMEMultipart()
     message["From"] = sender_email
